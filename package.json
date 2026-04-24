@@ -4,9 +4,11 @@
   "type": "module",
   "dependencies": {
     "@agentclientprotocol/sdk": "^0.20.0",
+    "chalk": "^5.6.2",
+    "execa": "^9.6.1",
     "zod": "^4.3.6"
   },
   "scripts": {
-    "models": "node scripts/cursor-acp-models-repro.mjs"
+    "repro": "node repro.mjs"
   }
 }
