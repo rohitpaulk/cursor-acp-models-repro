@@ -1,0 +1,12 @@
+{
+  "name": "cursor-acp-models-repro",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "@agentclientprotocol/sdk": "^0.20.0",
+    "zod": "^4.3.6"
+  },
+  "scripts": {
+    "models": "node scripts/cursor-acp-models-repro.mjs"
+  }
+}
